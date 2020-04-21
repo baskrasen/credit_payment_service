@@ -2,13 +2,13 @@ public class Main {
     public static void main(String[] args) {
         CreditPaymentService service = new CreditPaymentService();
 
-        int CreditPaymentOneYear = service.calculate(12, 1_000_000, 9.99);
-        System.out.println(CreditPaymentOneYear);
+        int creditPaymentOneYear = service.calculate(12, 1_000_000, 9.99);
+        System.out.println(creditPaymentOneYear);
 
-        int CreditPaymentTwoYears = service.calculate(24, 1_000_000, 9.99);
-        System.out.println(CreditPaymentTwoYears);
+        int creditPaymentTwoYears = service.calculate(24, 1_000_000, 9.99);
+        System.out.println(creditPaymentTwoYears);
 
-        int CreditPaymentThreeYears = service.calculate(36, 1_000_000, 9.99);
-        System.out.println(CreditPaymentThreeYears);
+        int creditPaymentThreeYears = service.calculate(36, 1_000_000, 9.99);
+        System.out.println(creditPaymentThreeYears);
     }
 }
